@@ -11,7 +11,9 @@
         nav a { margin: 0 15px; text-decoration: none; color: #2d5a27; font-weight: bold; }
         .container { padding: 20px; max-width: 900px; margin: auto; }
         .card { border-left: 5px solid #2d5a27; background: #f9f9f9; padding: 15px; margin: 20px 0; }
-        footer { background: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 20px; }
+        .gallery img { width: 45%; max-width: 300px; border: 3px solid #2d5a27; border-radius: 8px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); }
+        footer { background: #333; color: white; text-align: center; padding: 10px; margin-top: 50px; }
     </style>
 </head>
 <body>
@@ -24,7 +26,6 @@
 <nav>
     <a href="#hakkimizda">Hakkımızda</a>
     <a href="#etkinlikler">Etkinlikler</a>
-    <a href="#ortaklar">Ortaklarımız</a>
 </nav>
 
 <div class="container">
@@ -39,9 +40,19 @@
             <h3>Atık Yönetimi</h3>
             <p>Okulumuzda geri dönüşüm kutuları oluşturarak atıkları ayrıştırıyoruz.</p>
         </div>
-        <div class="card">
-            <h3>Ağaç Dikme</h3>
-            <p>Her yıl yerel orman müdürlükleri ile iş birliği yaparak fidan dikiyoruz.</p>
+        
+        <h2 style="text-align:center; color:#2d5a27; margin-top:40px;">Proje Galerimiz</h2>
+        <div class="gallery">
+            <img src="resim1.jpg">
+            <img src="resim2.jpg">
+            <img src="resim3.jpg">
+            <img src="resim4.jpg">
+            <img src="resim5.jpg">
+            <img src="resim6.jpg">
+            <img src="resim7.jpg">
+            <img src="resim8.jpg">
+            <img src="resim9.jpg">
+            <img src="resim10.jpg">
         </div>
     </section>
 </div>
@@ -52,3 +63,4 @@
 
 </body>
 </html>
+
